@@ -1,11 +1,11 @@
-# rasc
+# rasca
 
 React's cache with added support for running outside of React.
 
 ## Installation
 
 ```bash
-npm install rasc
+npm install rasca
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ The library provides two main functions:
 A function decorator that caches results based on input parameters, similar to React's cache but also works outside React:
 
 ```
-import { cache } from 'rasc'
+import { cache } from 'rasca'
 
 const expensiveOperation = cache((input: string) => {
   // Result will be cached based on input
@@ -30,7 +30,7 @@ const expensiveOperation = cache((input: string) => {
 Executes a function with a new cache context:
 
 ```
-import { run } from 'rasc'
+import { run } from 'rasca'
 
 await run(async () => {
   // Cached functions inside this scope will share the same cache context

@@ -1,5 +1,5 @@
 {
-  "name": "rasc",
+  "name": "rasca",
   "version": "0.1.0",
   "description": "React's cache, with added support for running outside of react",
   "main": "lib/index.js",
@@ -19,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manvalls/rasc.git"
+    "url": "git+https://github.com/manvalls/rasca.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/manvalls/rasc/issues"
+    "url": "https://github.com/manvalls/rasca/issues"
   },
-  "homepage": "https://github.com/manvalls/rasc#readme",
+  "homepage": "https://github.com/manvalls/rasca#readme",
   "peerDependencies": {
     "react": "next"
   },
